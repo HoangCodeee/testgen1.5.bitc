@@ -1,0 +1,75 @@
+*{
+    margin: none;
+}
+.login{
+    width: 400px;
+    height: 444px;
+    text-align: center;
+    justify-content:center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 0.5px solid;
+    color: #fff;
+    border-radius: 30px;
+    backdrop-filter: blur(25px);
+}
+.login .user input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px white solid;
+    color: #000;
+}
+.login .pass input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px white solid;
+    color: #000;
+}
+.user{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.user :hover{
+
+}
+
+.pass{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+
+}
+.refo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+/* .refo input{
+    width: 100px;
+} */
+.btlg{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: aqua;
+    font-size: medium;
+    font-weight: bold;
+    font-family: calibri;
+    opacity: 0.9;
+}
+.signin{
+    justify-content: center ;
+    display: flex;
+    gap: 10px;
+}
+h4{
+    font-size: 15px;
+    margin-left: 10px;
+}
